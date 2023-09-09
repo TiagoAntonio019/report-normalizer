@@ -1,0 +1,41 @@
+[
+    {
+        "replace":[
+            {
+                "Martinho Prado Júnior": [
+                    "Devolução Martinho Prado Jr",
+                    "Estoque Loja Martinho Prado",
+                    "UNO MILLE - ETS1104"
+                ],
+                "Conchal": [],
+                "Mogi Guaçu": [],
+                "Estiva": [],
+                "Iracemápolis": [],
+                "Santo Antonio de Posse": []
+            }
+        ]
+    },
+    {
+    "remove": [
+            "Descarte geral",
+            "Descarte Almoxarifado EPI",
+            "Descarte Almoxarifado ME",
+            "Descarte MRO",
+            "Descarte Estiva Gerbi (desativado)",
+            "Descarte geral",
+            "Descarte Martinho Prado (desativado)",
+            "Descarte Estiva Gerbi (desativado)",
+            "Descarte Mogi Guaçu (desativado)",
+            "Descarte Iracemápolis (desativado)",
+            "Manutenção Martinho Prado",
+            "Manutenção Estiva Gerbi",
+            "Manutenção Iracemápolis (desativado)",
+            "Fiorino - BMK9406",
+            "Geral",
+            "AJUSTE GERAL",
+            "Pendência",
+            "UNO MILLE - DBS1F92 (desativado)",
+            "UNO VIVACE - FPL2216 (desativado)"
+        ]
+    }
+]
