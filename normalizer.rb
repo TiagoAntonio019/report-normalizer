@@ -1,4 +1,5 @@
 require 'json'
+require 'date'
 
 def get_collection
     _collection_file = File.open('collection.json')
@@ -39,6 +40,7 @@ def remove_listed_itens(removable_itens, list)
 
     _count = 0
     _count_removed = 0
+    _start_time = Time.now
 
     removable_itens.each do |item|
         list.each do |line|
@@ -51,8 +53,12 @@ def remove_listed_itens(removable_itens, list)
         end
     end
 
-    puts "Was analyzed #{_count} lines and #{_count_removed} was removed."
+    _end_time = Time.now
+    _workload_time = (_end_time - _start_time) * 1000.0
+
+    puts "Was analyzed #{_count} lines and #{_count_removed} was removed in #{_workload_time} ms"
 end
+
 
 _collections = get_collection
 _replace_itens = get_replace_itens _collections[0]
